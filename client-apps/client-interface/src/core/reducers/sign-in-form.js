@@ -7,8 +7,8 @@ export default combineReducers({
   [RESSOURCE_NAMES.SIGN_IN_FORM.FIRST_NAME]: createInputReducer({
     ressourceName: RESSOURCE_NAMES.SIGN_IN_FORM.FIRST_NAME
   }),
-  [RESSOURCE_NAMES.SIGN_IN_FORM.NAME]: createInputReducer({
-    ressourceName: RESSOURCE_NAMES.SIGN_IN_FORM.NAME
+  [RESSOURCE_NAMES.SIGN_IN_FORM.LAST_NAME]: createInputReducer({
+    ressourceName: RESSOURCE_NAMES.SIGN_IN_FORM.LAST_NAME
   }),
   [RESSOURCE_NAMES.SIGN_IN_FORM.PASSWORD]: createInputReducer({
     ressourceName: RESSOURCE_NAMES.SIGN_IN_FORM.PASSWORD

@@ -32,7 +32,7 @@ export const nonNullableStringValidator = value => {
 
 const SIGN_IN_FORM_VALIDATORS = {
   [RESSOURCE_NAMES.SIGN_IN_FORM.FIRST_NAME]: nonNullableStringValidator,
-  [RESSOURCE_NAMES.SIGN_IN_FORM.NAME]: nonNullableStringValidator,
+  [RESSOURCE_NAMES.SIGN_IN_FORM.LAST_NAME]: nonNullableStringValidator,
   [RESSOURCE_NAMES.SIGN_IN_FORM.PASSWORD]: passwordValidator
 }
 export const checkSignInFormValidityAndReturnErrors = formValues =>

@@ -3,7 +3,7 @@ import checkSignInFormValidityAndReturnErrors from "./utils/sign-in-form-validat
 import { getSignInFormInputValues } from "../reducers/sign-in-form"
 import { logIn } from "./user-context"
 import { isNotAnyErrorInFormValidityResponse } from "../../tools/controls"
-import { $sendSignInForm } from "./requests/sign-in"
+import { $sendSignInForm } from "../requests/sign-in"
 
 export const updateSignInForm = ({ value, ressourceName }) => ({
   type: ACTION_TYPES.SET_INPUT_VALUE,
@@ -35,7 +35,7 @@ export const trySendSignInForm = () => (dispatch, getState) => {
       dispatch(resetInput({ ressourceName: key }))
     })
 
-    $sendSignInForm({ inputValues }).then(res => {
+    $sendSignInForm(inputValues).then(res => {
       const { password, ...userProps } = inputValues
       dispatch(logIn({ id: res, userProps }))
     })

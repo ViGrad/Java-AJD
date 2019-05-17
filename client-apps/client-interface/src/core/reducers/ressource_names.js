@@ -1,7 +1,7 @@
 export const RESSOURCE_NAMES = {
   SIGN_IN_FORM: {
     FIRST_NAME: "firstName",
-    NAME: "name",
+    LAST_NAME: "lastName",
     PASSWORD: "password",
   }
 }

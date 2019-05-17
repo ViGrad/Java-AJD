@@ -7,7 +7,7 @@ import genericComponents from "../generic";
 
 const SignInFormView = ({
   firstName,
-  name,
+  lastName,
   password,
   onInputChange,
   onSubmit
@@ -23,8 +23,8 @@ const SignInFormView = ({
       />
       <genericComponents.Input
         onChange={onInputChange}
-        state={name}
-        name={RESSOURCE_NAMES.SIGN_IN_FORM.NAME}
+        state={lastName}
+        name={RESSOURCE_NAMES.SIGN_IN_FORM.LAST_NAME}
         placeholder="Nom"
         label="Nom"
       />

@@ -3,6 +3,7 @@ import com.example.appengine.demos.springboot.Repositories.ClientRepository;
 import org.springframework.web.bind.annotation.*;
 import com.google.appengine.api.datastore.*;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 public class ClientController {
@@ -28,7 +29,11 @@ public class ClientController {
     }
 
     @PostMapping("/client")
-    public long Create(String firstName, String lastName, String password) {
+    public long Create(@RequestBody Map<String,Object> params) {
+        String firstName = params.get("firstName").toString();
+        String lastName = params.get("lastName").toString();
+        String password = params.get("password").toString();
+
         return clientRepository.Create(firstName, lastName, password);
     }
 
