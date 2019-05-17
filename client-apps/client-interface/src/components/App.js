@@ -1,7 +1,7 @@
 import React from "react"
 
 import { Button } from "semantic-ui-react"
-import LoginPage from "./login-form"
+import SignInPage from "./sign-in-form"
 import { logOut } from "../core/actions"
 import { connect } from "react-redux"
 import { getIsLogged } from "../core/reducers/user-context"
@@ -13,7 +13,7 @@ const App = ({ isLogged, logOut }) =>
       <Button onClick={logOut}>Déconnexion</Button>
     </div>
   ) : (
-    <LoginPage />
+    <SignInPage />
   )
 
 const mapStateToProps = state => ({

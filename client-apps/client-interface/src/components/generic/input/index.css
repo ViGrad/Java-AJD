@@ -1,0 +1,12 @@
+.generic-input-container {
+  margin-bottom: 14px;
+}
+
+.generic-input-container .error-message {
+  text-align: end;
+  color: #9f3a38;
+}
+
+.generic-input-container div.error  {
+  margin: 0 !important;
+}

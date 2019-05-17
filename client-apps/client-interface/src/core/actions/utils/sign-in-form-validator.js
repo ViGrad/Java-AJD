@@ -30,12 +30,12 @@ export const nonNullableStringValidator = value => {
   })(value)
 }
 
-const LOG_IN_FORM_VALIDATORS = {
-  [RESSOURCE_NAMES.LOG_IN_FORM.FIRST_NAME]: nonNullableStringValidator,
-  [RESSOURCE_NAMES.LOG_IN_FORM.NAME]: nonNullableStringValidator,
-  [RESSOURCE_NAMES.LOG_IN_FORM.PASSWORD]: passwordValidator
+const SIGN_IN_FORM_VALIDATORS = {
+  [RESSOURCE_NAMES.SIGN_IN_FORM.FIRST_NAME]: nonNullableStringValidator,
+  [RESSOURCE_NAMES.SIGN_IN_FORM.NAME]: nonNullableStringValidator,
+  [RESSOURCE_NAMES.SIGN_IN_FORM.PASSWORD]: passwordValidator
 }
-export const checkLoginFormValidityAndReturnErrors = formValues =>
-  checkFormValues(formValues, LOG_IN_FORM_VALIDATORS)
+export const checkSignInFormValidityAndReturnErrors = formValues =>
+  checkFormValues(formValues, SIGN_IN_FORM_VALIDATORS)
 
-export default checkLoginFormValidityAndReturnErrors
+export default checkSignInFormValidityAndReturnErrors
