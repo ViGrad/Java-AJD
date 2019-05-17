@@ -11,8 +11,10 @@ class LoginFormComponent extends React.Component {
     this.handleInputChange = this.handleInputChange.bind(this)
   }
 
-  handleInputChange(event) {
-    this.props.onInputChange({value: event.data, ressourceName: event.target.name})
+  handleInputChange(event, data) {
+    console.log("event", event)
+    console.log("data", data)
+    this.props.onInputChange({value: data.value, ressourceName: data.name})
   }
   
   render() {

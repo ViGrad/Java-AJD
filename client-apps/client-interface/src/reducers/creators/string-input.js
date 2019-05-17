@@ -5,7 +5,7 @@ export const createInputReducer = ({ defaultValue = "", ressourceName }) => (
   {type, value, ...action}
 ) => {
   if(action.ressourceName !== ressourceName && ressourceName !== undefined) {
-    return defaultValue
+    return state
   }
 
   switch(type) {
@@ -13,7 +13,7 @@ export const createInputReducer = ({ defaultValue = "", ressourceName }) => (
       return value
 
     default:
-      return defaultValue
+      return state
   }
 }
 
