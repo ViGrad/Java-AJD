@@ -1,9 +1,8 @@
 import React from "react"
 import { connect } from "react-redux"
 import View from "./view"
-import { logIn } from "../../actions/user-context"
 import { getLoginFormInputValues } from "../../reducers/login-form";
-import { updateLoginForm } from "../../actions/login-form/form-updaters";
+import { updateLoginForm, trySendLoginForm } from "../../actions/login-form";
 
 class LoginFormComponent extends React.Component {
   constructor(props) {
@@ -12,8 +11,6 @@ class LoginFormComponent extends React.Component {
   }
 
   handleInputChange(event, data) {
-    console.log("event", event)
-    console.log("data", data)
     this.props.onInputChange({value: data.value, ressourceName: data.name})
   }
   
@@ -25,7 +22,7 @@ class LoginFormComponent extends React.Component {
 const mapStateToProps = (state) => getLoginFormInputValues(state)
 
 const mapDispatchToProps = {
-  onLogIn: logIn,
+  onSubmit: trySendLoginForm,
   onInputChange: updateLoginForm
 }
 

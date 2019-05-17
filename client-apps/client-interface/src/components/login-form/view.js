@@ -1,10 +1,10 @@
 import React from "react"
-import { Button, Form } from "semantic-ui-react"
+import { Form } from "semantic-ui-react"
 import { RESSOURCE_NAMES } from "../../reducers/ressource_names"
 
-const LoginFormView = ({ firstName, name, password, onInputChange, logIn }) => {
+const LoginFormView = ({ firstName, name, password, onInputChange, onSubmit }) => {
   return (
-    <Form style={{widths:"100%"}}>
+    <Form onSubmit={onSubmit} style={{widths:"100%"}}>
       <Form.Group widths='equal'>
         <Form.Input
           fluid
@@ -33,7 +33,7 @@ const LoginFormView = ({ firstName, name, password, onInputChange, logIn }) => {
         />
       </Form.Group>
 
-      <Form.Button onClick={logIn}>Connection</Form.Button>
+      <Form.Button type="submit">Connection</Form.Button>
     </Form>
   )
 }
