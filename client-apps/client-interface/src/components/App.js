@@ -1,6 +1,30 @@
-import React from 'react';
+import React from "react"
+
+import { Button } from "semantic-ui-react"
 import LoginPage from "./login-page"
+import { logOut } from "../actions"
+import { connect } from "react-redux"
+import { getIsLogged } from "../reducers/user-context"
 
-const App = () => <LoginPage />
+const App = ({ isLogged, logOut }) =>
+  isLogged ? (
+    <div>
+      <p>Vous êtes connecté</p>
+      <Button onClick={logOut}>Déconnexion</Button>
+    </div>
+  ) : (
+    <LoginPage />
+  )
 
-export default App;
+const mapStateToProps = state => ({
+  isLogged: getIsLogged(state)
+})
+
+const mapDispatchToProps = {
+  logOut
+}
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(App)

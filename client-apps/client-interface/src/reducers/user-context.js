@@ -1,7 +1,7 @@
 import { ACTION_TYPES } from "../actions/types";
 import { combineReducers } from "redux";
 
-const isLogged = (state = true, {type, value, ...action}) => {
+const isLogged = (state = false, {type, value, ...action}) => {
   switch (type) {
     case ACTION_TYPES.LOG_IN:
       return true
