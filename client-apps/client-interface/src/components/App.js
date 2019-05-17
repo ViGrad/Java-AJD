@@ -1,7 +1,7 @@
 import React from "react"
 
 import { Button } from "semantic-ui-react"
-import LoginPage from "./login-page"
+import LoginPage from "./login-form"
 import { logOut } from "../actions"
 import { connect } from "react-redux"
 import { getIsLogged } from "../reducers/user-context"
