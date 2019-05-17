@@ -1,8 +1,8 @@
 import { ACTION_TYPES } from "../actions/types"
 import { combineReducers } from "redux"
-import { getJsonValueByPath } from "../../tools/get-json-value-by-path";
+import { getJsonValueByPath } from "../../tools/get-json-value-by-path"
 
-const isLogged = (state = false, { type, value, ...action }) => {
+const isLogged = (state = false, { type, ...action }) => {
   switch (type) {
     case ACTION_TYPES.LOG_IN:
       return true
@@ -15,8 +15,36 @@ const isLogged = (state = false, { type, value, ...action }) => {
   }
 }
 
+const id = (state = null, { type, value, ...action }) => {
+  switch (type) {
+    case ACTION_TYPES.LOG_IN:
+      return value.id
+
+    case ACTION_TYPES.LOG_OUT:
+      return null
+
+    default:
+      return state
+  }
+}
+
+const userProps = (state = {}, { type, value }) => {
+  switch(type) {
+    case ACTION_TYPES.LOG_IN:
+      return value.userProps
+
+    case ACTION_TYPES.LOG_OUT:
+      return {}
+
+    default:
+      return state
+  }
+}
+
 export default combineReducers({
-  isLogged
+  isLogged,
+  id,
+  userProps
 })
 
 const PATH_TO_STATE = "userContext"

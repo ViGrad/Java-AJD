@@ -9,8 +9,11 @@ export const createInputReducer = ({ defaultValue = "", ressourceName }) => {
     }
 
     switch (type) {
-      case ACTION_TYPES.UPDATE_INPUT_REDUCER:
+      case ACTION_TYPES.SET_INPUT_VALUE:
         return value
+
+      case ACTION_TYPES.RESET_INPUT:
+        return defaultValue
 
       default:
         return state
@@ -25,6 +28,9 @@ export const createInputReducer = ({ defaultValue = "", ressourceName }) => {
     switch (type) {
       case ACTION_TYPES.SET_INPUT_ERROR_MESSAGE:
         return value
+
+        case ACTION_TYPES.RESET_INPUT:
+          return ""
 
       default:
         return state

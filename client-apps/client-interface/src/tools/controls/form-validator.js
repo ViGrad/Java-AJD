@@ -1,5 +1,5 @@
-import { isNullOrEmpty } from "./generic";
-import createControl from ".";
+import { isNullOrEmpty } from "./generic"
+import createControl from "."
 
 export const createInputValidator = ({
   controls,
@@ -14,10 +14,12 @@ export const createInputValidator = ({
   return createControl({ controls, errorMessage })(value)
 }
 
-
 export const checkFormValues = (formValues, validators) => {
   return Object.keys(validators).reduce((accumulator, key) => {
     accumulator[key] = validators[key](formValues[key])
     return accumulator
   }, {})
 }
+
+export const isNotAnyErrorInFormValidityResponse = errors =>
+  Object.values(errors).every(errorMessage => errorMessage === "")
