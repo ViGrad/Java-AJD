@@ -1,6 +1,6 @@
 import React from "react"
 import { Form } from "semantic-ui-react"
-import { RESSOURCE_NAMES } from "../../reducers/ressource_names"
+import { RESSOURCE_NAMES } from "../../core/reducers/ressource_names"
 
 const LoginFormView = ({ firstName, name, password, onInputChange, onSubmit }) => {
   return (

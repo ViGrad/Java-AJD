@@ -1,8 +1,8 @@
 import React from "react"
 import { connect } from "react-redux"
 import View from "./view"
-import { getLoginFormInputValues } from "../../reducers/login-form";
-import { updateLoginForm, trySendLoginForm } from "../../actions/login-form";
+import { getLoginFormInputValues } from "../../core/reducers/login-form"
+import { updateLoginForm, trySendLoginForm } from "../../core/actions/login-form"
 
 class LoginFormComponent extends React.Component {
   constructor(props) {

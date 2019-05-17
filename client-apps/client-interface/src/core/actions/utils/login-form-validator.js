@@ -2,9 +2,9 @@ import {
   isLongerThan,
   isOnlyString,
   createInputValidator
-} from "../../tools/controls"
+} from "../../../tools/controls"
 import { RESSOURCE_NAMES } from "../../reducers/ressource_names"
-import { checkFormValues } from "../../tools/controls/form-validator"
+import { checkFormValues } from "../../../tools/controls/form-validator"
 
 export const passwordValidator = value => {
   const controls = [isLongerThan(6)]

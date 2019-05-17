@@ -1,6 +1,6 @@
 import { ACTION_TYPES } from "../actions/types"
 import { combineReducers } from "redux"
-import { getJsonValueByPath } from "../tools/get-json-value-by-path";
+import { getJsonValueByPath } from "../../tools/get-json-value-by-path";
 
 const isLogged = (state = false, { type, value, ...action }) => {
   switch (type) {
