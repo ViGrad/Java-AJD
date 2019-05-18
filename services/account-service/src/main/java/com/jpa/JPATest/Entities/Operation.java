@@ -8,58 +8,49 @@ import java.util.Date;
 
 @Entity
 public class Operation {
-    private Long transferId;
-    private Account from;
-    private String label;
+    private Long id;
+    private Transfer transfer;
+    private Account account;
     private double amount;
     private Date date;
-    private Long toAccoutId;
 
     public Operation() {}
 
-    public Operation(Account from, String label, double amount, Long toAccoutId) {
-        this.from = from;
-        this.label = label;
+    public Operation(Account account, double amount) {
+        this.account = account;
         this.amount = amount;
         this.date = new Date();
-        this.toAccoutId = toAccoutId;
     }
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    public Long getTransferId() {
-        return transferId;
+    public Long getId() {
+        return id;
     }
 
-    public void setTransferId(Long transferId) {
-        this.transferId = transferId;
+    public void setId(Long id) {
+        this.id = id;
     }
 
-
-    @ManyToOne(cascade=CascadeType.REMOVE, fetch = FetchType.EAGER)
+    @OneToOne(fetch = FetchType.LAZY)
     @JsonIgnore
-    public Account getFrom() {
-        return from;
+    public Transfer getTransfer() {
+        return transfer;
     }
 
-    public void setFrom(Account from) {
-        this.from = from;
+    public void setTransfer(Transfer transfer) {
+        this.transfer = transfer;
     }
 
-    public String getLabel() {
-        return label;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JsonIgnore
+    public Account getAccount() {
+        return account;
     }
 
-    public void setLabel(String label) {
-        this.label = label;
-    }
-
-    public Long getToAccoutId() {
-        return toAccoutId;
-    }
-
-    public void setToAccoutId(Long toAccoutId) {
-        this.toAccoutId = toAccoutId;
+    public void setAccount(Account account) {
+        this.account = account;
     }
 
     public double getAmount() {
@@ -81,12 +72,9 @@ public class Operation {
     @Override
     public String toString() {
         return "Operation{" +
-                "transferId=" + transferId +
-                ", from=" + from.getId() +
-                ", label='" + label + '\'' +
+                ", account=" + account.getId() +
                 ", amount=" + amount +
                 ", date=" + date +
-                ", toAccoutId=" + toAccoutId +
                 '}';
     }
 }

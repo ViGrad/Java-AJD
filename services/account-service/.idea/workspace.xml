@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b5b36dd-57e5-49f7-8e52-1930af1ccb7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Transfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/TransferRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Entities/Accounts/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Entities/Accounts/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Entities/Accounts/Depot.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Entities/Accounts/Depot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Entities/Accounts/PassBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Entities/Accounts/PassBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Entities/Transfer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Entities/Transfer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/JpaTestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/JpaTestApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/RentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/RentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Repositories/RentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Entities/Accounts/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Entities/Accounts/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Entities/Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Entities/Operation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/JpaTestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/JpaTestApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/JpaTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/JpaTestApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -26,7 +40,34 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/OperationRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <caret line="7" column="76" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/JpaTestApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="67" column="39" lean-forward="true" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
+              <folding>
+                <element signature="e#824#825#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#1067#1068#0" expanded="true" />
+                <element signature="e#1094#1095#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/TransferRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,15 +76,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/JpaTestApplication.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Transfer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="297">
+              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
               <folding>
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#884#885#0" expanded="true" />
-                <element signature="e#1685#1696#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Operation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -62,56 +126,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.3.RELEASE/6df39e2fbf8757ce2bf084909224e7e78f315ec7/spring-boot-autoconfigure-2.1.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="136" column="50" selection-start-line="136" selection-start-column="50" selection-end-line="136" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.1.5.RELEASE/65b8846a1d79cfff2bcd44e0d40c5f95c5cb2d14/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="1761" selection-start-line="1761" selection-end-line="1761" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Operation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="84" column="40" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
-              <folding>
-                <element signature="e#1028#1029#0" expanded="true" />
-                <element signature="e#1056#1057#0" expanded="true" />
-                <element signature="e#1098#1099#0" expanded="true" />
-                <element signature="e#1132#1133#0" expanded="true" />
-                <element signature="e#1167#1168#0" expanded="true" />
-                <element signature="e#1200#1201#0" expanded="true" />
-                <element signature="e#1250#1251#0" expanded="true" />
-                <element signature="e#1294#1295#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/Depot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/PassBook.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -121,10 +135,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/Depot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+            <state relative-caret-position="414">
+              <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -146,6 +173,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Interface" />
       </list>
     </option>
@@ -168,16 +196,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/PassBookA.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/PassBook.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Depot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Transfer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/AccountRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/RentRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/OperationRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/RentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/PassBook.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/Depot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Transaction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/TransferRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Operation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/JpaTestApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Transfer.java" />
       </list>
     </option>
   </component>
@@ -269,7 +299,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558184629456" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558189731418" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -306,18 +336,18 @@
       <updated>1558176198205</updated>
       <workItem from="1558176201599" duration="129000" />
       <workItem from="1558176356989" duration="5277000" />
-      <workItem from="1558182147941" duration="2378000" />
+      <workItem from="1558182147941" duration="7106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7784000" />
+    <option name="totallyTimeSpent" value="12512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -327,7 +357,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -366,13 +396,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Person.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.3.RELEASE/6df39e2fbf8757ce2bf084909224e7e78f315ec7/spring-boot-autoconfigure-2.1.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="136" column="50" selection-start-line="136" selection-start-column="50" selection-end-line="136" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.1.5.RELEASE/65b8846a1d79cfff2bcd44e0d40c5f95c5cb2d14/spring-beans-5.1.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -394,28 +417,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.3.RELEASE/6df39e2fbf8757ce2bf084909224e7e78f315ec7/spring-boot-autoconfigure-2.1.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="136" column="50" selection-start-line="136" selection-start-column="50" selection-end-line="136" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/PassBook.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/Depot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -430,27 +442,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/Depot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Operation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="84" column="40" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
-          <folding>
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
-            <element signature="e#1294#1295#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="61">
+          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/OperationRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <caret line="7" column="76" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -469,12 +489,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/JpaTestApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="181">
+          <caret line="67" column="39" lean-forward="true" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
           <folding>
             <element signature="e#824#825#0" expanded="true" />
             <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#1685#1696#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/TransferRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Transfer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
           </folding>
         </state>
       </provider>

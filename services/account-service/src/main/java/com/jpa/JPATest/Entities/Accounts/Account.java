@@ -40,7 +40,7 @@ public abstract class Account {
         this.clientId = clientId;
     }
 
-    @OneToMany(mappedBy="from", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "account", fetch = FetchType.EAGER)
     public List<Operation> getOperations() {
         return operations;
     }
