@@ -39,5 +39,5 @@ export const trySendSignInForm = () => (dispatch, getState) => {
       const { password, ...userProps } = inputValues
       dispatch(logIn({ id: res, userProps }))
     })
-  }
+  } 
 }
