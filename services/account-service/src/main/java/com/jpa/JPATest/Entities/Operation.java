@@ -9,10 +9,11 @@ import java.util.Date;
 @Entity
 public class Operation {
     private Long id;
-    private Transfer transfer;
-    private Account account;
     private double amount;
     private Date date;
+
+    private Transfer transfer;
+    private Account account;
 
     public Operation() {}
 
@@ -32,7 +33,7 @@ public class Operation {
         this.id = id;
     }
 
-    @OneToOne(fetch = FetchType.LAZY)
+    @OneToOne
     @JsonIgnore
     public Transfer getTransfer() {
         return transfer;
@@ -43,7 +44,7 @@ public class Operation {
     }
 
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     @JsonIgnore
     public Account getAccount() {
         return account;
@@ -72,7 +73,8 @@ public class Operation {
     @Override
     public String toString() {
         return "Operation{" +
-                ", account=" + account.getId() +
+                "account=" + account.getId() +
+                ", transfer=" + transfer.getId() +
                 ", amount=" + amount +
                 ", date=" + date +
                 '}';

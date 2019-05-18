@@ -53,13 +53,14 @@ public class JpaTestApplication {
 			operationRepository.save(debit);
 			operationRepository.save(credit);
 
-
 			Transfer transfer = new Transfer(debit, credit, "label");
 
 			debit.setTransfer(transfer);
 			credit.setTransfer(transfer);
 
 			transferRepository.save(transfer);
+			operationRepository.save(debit);
+			operationRepository.save(credit);
 
 
 			log.info("Accounts found with findAll():");
@@ -73,6 +74,14 @@ public class JpaTestApplication {
 			log.info("Transfers found with findAll():");
 			log.info("-------------------------------");
 			for (Transfer a : transferRepository.findAll()) {
+				log.info(a.toString());
+			}
+			log.info("");
+
+
+			log.info("Operations found with findAll():");
+			log.info("-------------------------------");
+			for (Operation a : operationRepository.findAll()) {
 				log.info(a.toString());
 			}
 			log.info("");

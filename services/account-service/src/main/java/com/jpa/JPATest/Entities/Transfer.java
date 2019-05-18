@@ -62,7 +62,7 @@ public class Transfer {
                 "id=" + id +
                 ", debit=" + debit +
                 ", credit=" + credit +
-                ", label='" + label + '\'' +
+                ", label='" + label +
                 '}';
     }
 }
