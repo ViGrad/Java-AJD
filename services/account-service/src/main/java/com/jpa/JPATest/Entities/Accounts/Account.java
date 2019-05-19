@@ -62,6 +62,7 @@ public abstract class Account {
         return "Account{" +
                 "id=" + id +
                 ", clientId=" + clientId +
+                ", operations=" + operations +
                 ", name='" + name + '\'' +
                 '}';
     }

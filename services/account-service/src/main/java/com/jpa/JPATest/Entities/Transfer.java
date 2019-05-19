@@ -30,7 +30,7 @@ public class Transfer {
         this.id = id;
     }
 
-    @OneToOne(fetch = FetchType.EAGER)
+    @OneToOne(fetch = FetchType.EAGER, cascade = {CascadeType.ALL})
     public Operation getDebit() {
         return debit;
     }
@@ -47,7 +47,7 @@ public class Transfer {
         this.label = label;
     }
 
-    @OneToOne(fetch = FetchType.EAGER)
+    @OneToOne(fetch = FetchType.EAGER, cascade = {CascadeType.ALL})
     public Operation getCredit() {
         return credit;
     }

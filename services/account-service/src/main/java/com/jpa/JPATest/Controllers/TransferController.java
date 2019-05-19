@@ -3,6 +3,7 @@ package com.jpa.JPATest.Controllers;
 import com.jpa.JPATest.Entities.Accounts.Account;
 import com.jpa.JPATest.Entities.Operation;
 import com.jpa.JPATest.Entities.Transfer;
+import com.jpa.JPATest.Factories.TransferFactory;
 import com.jpa.JPATest.Repositories.AccountRepository;
 import com.jpa.JPATest.Repositories.OperationRepository;
 import com.jpa.JPATest.Repositories.TransferRepository;
@@ -15,7 +16,6 @@ import java.util.Map;
 @RestController
 public class TransferController {
     private TransferRepository transferRepository;
-    private OperationRepository operationRepository;
     private AccountRepository accountRepository;
 
     @Autowired
@@ -23,7 +23,6 @@ public class TransferController {
         super();
         this.transferRepository = transferRepository;
         this.accountRepository = accountRepository;
-        this.operationRepository = operationRepository;
     }
 
     @GetMapping("/transfer/{id}")
@@ -32,29 +31,25 @@ public class TransferController {
     }
 
     @PostMapping("/transfer")
-    public Long Transfer(@RequestBody Map<String,Object> params) {
+    public Long Transfer(@RequestBody Map<String,Object> params) throws Exception {
         String fromAccountId = params.get("fromAccountId").toString();
         String toAccountId = params.get("toAccountId").toString();
         String label = params.get("label").toString();
         int amount = Integer.parseInt(params.get("amount").toString());
 
-        Account debited = accountRepository.findById(Long.parseLong(fromAccountId)).get();
-        Account credited = accountRepository.findById(Long.parseLong(toAccountId)).get();
+        Account debited;
+        Account credited;
 
-        Operation debit = new Operation(debited, amount);
-        Operation credit = new Operation(credited, amount);
+        try {
+            debited = accountRepository.findById(Long.parseLong(fromAccountId)).get();
+            credited = accountRepository.findById(Long.parseLong(toAccountId)).get();
+        }
+        catch (Exception ex) {
+            throw new Exception("Account not found");
+        }
 
-        operationRepository.save(debit);
-        operationRepository.save(credit);
+        Transfer transfer = TransferFactory.createTransfer(debited, credited, label, amount);
 
-        Transfer transfer = new Transfer(debit, credit, label);
-
-        transferRepository.save(transfer);
-
-        debit.setTransfer(transfer);
-        credit.setTransfer(transfer);
-
-        return Long.parseLong(fromAccountId);
-
+        return transfer.getId();
     }
 }

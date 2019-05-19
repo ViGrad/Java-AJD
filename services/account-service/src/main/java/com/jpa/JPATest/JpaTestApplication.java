@@ -38,17 +38,12 @@ public class JpaTestApplication {
 			Operation debit = new Operation(passBookA, -3000);
 			Operation credit = new Operation(depot, 3000);
 
-			operationRepository.save(debit);
-			operationRepository.save(credit);
-
 			Transfer transfer = new Transfer(debit, credit, "label");
 
-			debit.setTransfer(transfer);
 			credit.setTransfer(transfer);
+			debit.setTransfer(transfer);
 
 			transferRepository.save(transfer);
-			operationRepository.save(debit);
-			operationRepository.save(credit);
 
 
 			log.info("Accounts found with findAll():");
