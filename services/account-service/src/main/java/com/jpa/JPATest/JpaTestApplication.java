@@ -25,11 +25,6 @@ public class JpaTestApplication {
 		SpringApplication.run(JpaTestApplication.class, args);
 	}
 
-	public Transfer makeTransfer(Account from, Account to, String label, double sum) {
-		return new Transfer();
-	}
-
-
 	@Bean
 	public CommandLineRunner demo(AccountRepository accountRepository, OperationRepository operationRepository, TransferRepository transferRepository) {
 		return (args) -> {
@@ -38,13 +33,6 @@ public class JpaTestApplication {
 
 			accountRepository.save(passBookA);
 			accountRepository.save(depot);
-
-			log.info("Accounts found with findAll():");
-			log.info("-------------------------------");
-			for (Account a : accountRepository.findAll()) {
-				log.info(a.toString());
-			}
-			log.info("");
 
 
 			Operation debit = new Operation(passBookA, -3000);

@@ -1,6 +1,6 @@
 package com.jpa.JPATest.Entities;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.*;
 import com.jpa.JPATest.Entities.Accounts.Account;
 
 import javax.persistence.*;
@@ -34,7 +34,9 @@ public class Operation {
     }
 
     @OneToOne
-    @JsonIgnore
+    @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
+    @JsonIdentityReference(alwaysAsId = true)
+    @JsonProperty("transferId")
     public Transfer getTransfer() {
         return transfer;
     }
@@ -45,7 +47,9 @@ public class Operation {
 
 
     @ManyToOne
-    @JsonIgnore
+    @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
+    @JsonIdentityReference(alwaysAsId = true)
+    @JsonProperty("accountId")
     public Account getAccount() {
         return account;
     }

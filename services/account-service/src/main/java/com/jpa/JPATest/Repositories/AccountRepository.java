@@ -1,8 +1,12 @@
 package com.jpa.JPATest.Repositories;
 
 import com.jpa.JPATest.Entities.Accounts.Account;
+import com.jpa.JPATest.Entities.Operation;
 import org.springframework.data.repository.CrudRepository;
 
-public interface AccountRepository extends CrudRepository<Account, Long> {
+import java.util.List;
 
+public interface AccountRepository extends CrudRepository<Account, Long> {
+    List<Account> findByClientId(Long clientId);
+    List<Account> findByClientIdAndId(Long clientId, Long id);
 }
