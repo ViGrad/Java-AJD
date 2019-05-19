@@ -1,12 +1,8 @@
 package com.jpa.JPATest.Controllers;
 
 import com.jpa.JPATest.Entities.Accounts.Account;
-import com.jpa.JPATest.Entities.Accounts.Depot;
-import com.jpa.JPATest.Entities.Accounts.PassBook;
-import com.jpa.JPATest.Entities.Operation;
 import com.jpa.JPATest.Factories.AccountFactory;
 import com.jpa.JPATest.Repositories.AccountRepository;
-import com.jpa.JPATest.Repositories.OperationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

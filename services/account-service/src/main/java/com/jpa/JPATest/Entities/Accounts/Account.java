@@ -1,6 +1,5 @@
 package com.jpa.JPATest.Entities.Accounts;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.jpa.JPATest.Entities.Operation;
 
 import javax.persistence.*;
@@ -9,17 +8,38 @@ import java.util.List;
 
 @Entity
 public abstract class Account {
-    protected Long id;
-    protected Long clientId;
-    protected List<Operation> operations = new ArrayList<>();
-    protected String name;
+    private Long id;
+    private Long clientId;
+    private List<Operation> operations = new ArrayList<>();
+    private String type;
 
     public Account() {
     }
 
-    public Account(Long clientId, String name) {
+    public Account(Long clientId, String type) {
         this.clientId = clientId;
-        this.name = name;
+        this.type = type;
+    }
+
+    public double getBalance() {
+        double balance = 0;
+        for (Operation operation: operations) {
+            balance += operation.getAmount();
+        }
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+
+    }
+
+    protected boolean shouldBeAValidBalance(double potentatialBalance) {
+        return potentatialBalance >= 0;
+    }
+
+    public boolean operationShouldPass(Operation operation) {
+        double potentialBalance = getBalance() + operation.getAmount();
+        return shouldBeAValidBalance(potentialBalance);
     }
 
     @Id
@@ -49,12 +69,12 @@ public abstract class Account {
         this.operations = operations;
     }
 
-    public String getName() {
-        return name;
+    public String getType() {
+        return type;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setType(String type) {
+        this.type = type;
     }
 
     @Override
@@ -63,7 +83,7 @@ public abstract class Account {
                 "id=" + id +
                 ", clientId=" + clientId +
                 ", operations=" + operations +
-                ", name='" + name + '\'' +
+                ", type='" + type + '\'' +
                 '}';
     }
 }

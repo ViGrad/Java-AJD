@@ -3,14 +3,14 @@ package com.jpa.JPATest.Entities.Accounts;
 import javax.persistence.Entity;
 
 @Entity
-public class PassBook extends Account {
+public class PassBookAccount extends Account {
     public double maximumAmount;
     public float interests;
 
-    public PassBook() {
+    public PassBookAccount() {
     }
 
-    public PassBook(Long clientId, String name, double maximumAmount, float interests) {
+    public PassBookAccount(Long clientId, String name, double maximumAmount, float interests) {
         super(clientId, name);
         this.maximumAmount = maximumAmount;
         this.interests = interests;
@@ -34,13 +34,9 @@ public class PassBook extends Account {
 
     @Override
     public String toString() {
-        return "PassBook{" +
+        return "PassBookAccount{"+ super.toString() +
                 "maximumAmount=" + maximumAmount +
                 ", interests=" + interests +
-                ", id=" + id +
-                ", clientId=" + clientId +
-                ", operations=" + operations +
-                ", name='" + name + '\'' +
                 '}';
     }
 }

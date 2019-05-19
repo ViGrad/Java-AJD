@@ -2,8 +2,6 @@ package com.jpa.JPATest.Entities;
 
 import com.fasterxml.jackson.annotation.*;
 import com.jpa.JPATest.Entities.Accounts.Account;
-import com.jpa.JPATest.Entities.Transfers.ITransfer;
-import com.jpa.JPATest.Entities.Transfers.Virement;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -11,18 +9,16 @@ import java.util.Date;
 @Entity
 public class Operation {
     private Long id;
-    private String label;
     private double amount;
     private Date date;
 
-    private ITransfer transfer;
+    private Transfer transfer;
     private Account account;
 
     public Operation() {}
 
-    public Operation(Account account, String label, double amount) {
+    public Operation(Account account, double amount) {
         this.account = account;
-        this.label = label;
         this.amount = amount;
         this.date = new Date();
     }
@@ -37,23 +33,15 @@ public class Operation {
         this.id = id;
     }
 
-    public String getLabel() {
-        return label;
-    }
-
-    public void setLabel(String label) {
-        this.label = label;
-    }
-
     @OneToOne
     @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
     @JsonIdentityReference(alwaysAsId = true)
     @JsonProperty("transferId")
-    public ITransfer getTransfer() {
+    public Transfer getTransfer() {
         return transfer;
     }
 
-    public void setTransfer(ITransfer transfer) {
+    public void setTransfer(Transfer transfer) {
         this.transfer = transfer;
     }
 
@@ -91,7 +79,6 @@ public class Operation {
         return "Operation{" +
                 "account=" + account.getId() +
                 ", transfer=" + transfer.getId() +
-                ", label=" + label +
                 ", amount=" + amount +
                 ", date=" + date +
                 '}';
