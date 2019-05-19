@@ -1,33 +1,21 @@
-package com.jpa.JPATest.Entities;
+package com.jpa.JPATest.Entities.Transfers;
 
 import com.jpa.JPATest.Entities.Accounts.Account;
+import com.jpa.JPATest.Entities.Operation;
 
 import javax.persistence.*;
 
 @Entity
-public class Transfer {
-    private long id;
+public class Virement extends ITransfer {
     private Operation debit;
     private Operation credit;
-    private String label;
 
-    public Transfer() {
+    public Virement() {
     }
 
-    public Transfer(Operation debit, Operation credit, String label) {
+    public Virement(Operation debit, Operation credit) {
         this.debit = debit;
         this.credit = credit;
-        this.label = label;
-    }
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
     }
 
     @OneToOne(fetch = FetchType.EAGER, cascade = {CascadeType.ALL})
@@ -37,14 +25,6 @@ public class Transfer {
 
     public void setDebit(Operation debit) {
         this.debit = debit;
-    }
-
-    public String getLabel() {
-        return label;
-    }
-
-    public void setLabel(String label) {
-        this.label = label;
     }
 
     @OneToOne(fetch = FetchType.EAGER, cascade = {CascadeType.ALL})
@@ -58,11 +38,10 @@ public class Transfer {
 
     @Override
     public String toString() {
-        return "Transfer{" +
+        return "Virement{" +
                 "id=" + id +
                 ", debit=" + debit +
                 ", credit=" + credit +
-                ", label='" + label +
                 '}';
     }
 }

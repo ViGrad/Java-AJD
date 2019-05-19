@@ -34,9 +34,13 @@ public class PassBook extends Account {
 
     @Override
     public String toString() {
-        return "PassBook{"+ super.toString() +
+        return "PassBook{" +
                 "maximumAmount=" + maximumAmount +
                 ", interests=" + interests +
+                ", id=" + id +
+                ", clientId=" + clientId +
+                ", operations=" + operations +
+                ", name='" + name + '\'' +
                 '}';
     }
 }

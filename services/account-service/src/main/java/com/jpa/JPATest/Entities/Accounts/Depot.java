@@ -15,6 +15,11 @@ public class Depot extends Account {
 
     @Override
     public String toString() {
-        return "Depot{"+ super.toString() + "}";
+        return "Depot{" +
+                "id=" + id +
+                ", clientId=" + clientId +
+                ", operations=" + operations +
+                ", name='" + name + '\'' +
+                '}';
     }
 }

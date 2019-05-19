@@ -4,7 +4,7 @@ import com.jpa.JPATest.Entities.Accounts.Account;
 import com.jpa.JPATest.Entities.Accounts.Depot;
 import com.jpa.JPATest.Entities.Accounts.PassBook;
 import com.jpa.JPATest.Entities.Operation;
-import com.jpa.JPATest.Entities.Transfer;
+import com.jpa.JPATest.Entities.Transfers.Virement;
 import com.jpa.JPATest.Repositories.AccountRepository;
 import com.jpa.JPATest.Repositories.OperationRepository;
 import com.jpa.JPATest.Repositories.TransferRepository;
@@ -15,8 +15,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import java.util.ArrayList;
-
 @SpringBootApplication
 public class JpaTestApplication {
 	private static final Logger log = LoggerFactory.getLogger(JpaTestApplication.class);
@@ -26,7 +24,7 @@ public class JpaTestApplication {
 	}
 
 	@Bean
-	public CommandLineRunner demo(AccountRepository accountRepository, OperationRepository operationRepository, TransferRepository transferRepository) {
+	public CommandLineRunner populateDatabase(AccountRepository accountRepository, OperationRepository operationRepository, TransferRepository transferRepository) {
 		return (args) -> {
 			PassBook passBookA = new PassBook(new Long(24348990),"Livret A", 3000, 2);
 			Depot depot = new Depot(new Long(9977660));
@@ -35,15 +33,15 @@ public class JpaTestApplication {
 			accountRepository.save(depot);
 
 
-			Operation debit = new Operation(passBookA, -3000);
-			Operation credit = new Operation(depot, 3000);
+			Operation debit = new Operation(passBookA, "label", -3000);
+			Operation credit = new Operation(depot, "label", 3000);
 
-			Transfer transfer = new Transfer(debit, credit, "label");
+			Virement virement = new Virement(debit, credit);
 
-			credit.setTransfer(transfer);
-			debit.setTransfer(transfer);
+			credit.setTransfer(virement);
+			debit.setTransfer(virement);
 
-			transferRepository.save(transfer);
+			transferRepository.save(virement);
 
 
 			log.info("Accounts found with findAll():");
@@ -56,7 +54,7 @@ public class JpaTestApplication {
 
 			log.info("Transfers found with findAll():");
 			log.info("-------------------------------");
-			for (Transfer a : transferRepository.findAll()) {
+			for (Virement a : transferRepository.findAll()) {
 				log.info(a.toString());
 			}
 			log.info("");

@@ -1,8 +1,7 @@
 package com.jpa.JPATest.Controllers;
 
 import com.jpa.JPATest.Entities.Accounts.Account;
-import com.jpa.JPATest.Entities.Operation;
-import com.jpa.JPATest.Entities.Transfer;
+import com.jpa.JPATest.Entities.Transfers.Virement;
 import com.jpa.JPATest.Factories.TransferFactory;
 import com.jpa.JPATest.Repositories.AccountRepository;
 import com.jpa.JPATest.Repositories.OperationRepository;
@@ -10,7 +9,6 @@ import com.jpa.JPATest.Repositories.TransferRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.persistence.GeneratedValue;
 import java.util.Map;
 
 @RestController
@@ -26,7 +24,7 @@ public class TransferController {
     }
 
     @GetMapping("/transfer/{id}")
-    public Transfer GetById(@PathVariable Long id) {
+    public Virement GetById(@PathVariable Long id) {
         return transferRepository.findById(id).get();
     }
 
@@ -48,8 +46,8 @@ public class TransferController {
             throw new Exception("Account not found");
         }
 
-        Transfer transfer = TransferFactory.createTransfer(debited, credited, label, amount);
+        Virement virement = TransferFactory.createTransfer(debited, credited, label, amount);
 
-        return transfer.getId();
+        return virement.getId();
     }
 }

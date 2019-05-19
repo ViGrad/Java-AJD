@@ -9,10 +9,10 @@ import java.util.List;
 
 @Entity
 public abstract class Account {
-    private Long id;
-    private Long clientId;
-    private List<Operation> operations = new ArrayList<>();
-    private String name;
+    protected Long id;
+    protected Long clientId;
+    protected List<Operation> operations = new ArrayList<>();
+    protected String name;
 
     public Account() {
     }
