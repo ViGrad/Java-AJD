@@ -1,4 +1,4 @@
-package com.example.appengine.demos.springboot.services.accountservice.Repositories;
+package com.example.appengine.demos.springboot.services.clientservice.Repositories;
 
 import com.google.appengine.api.datastore.*;
 

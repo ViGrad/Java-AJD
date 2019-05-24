@@ -1,5 +1,5 @@
-package com.example.appengine.demos.springboot.services.accountservice.Controllers;
-import com.example.appengine.demos.springboot.services.accountservice.Repositories.ClientRepository;
+package com.example.appengine.demos.springboot.services.clientservice.Controllers;
+import com.example.appengine.demos.springboot.services.clientservice.Repositories.ClientRepository;
 import org.springframework.web.bind.annotation.*;
 import com.google.appengine.api.datastore.*;
 import java.util.List;
