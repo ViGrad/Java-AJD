@@ -1,50 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="com.example.appengine.JPATest" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4b5b36dd-57e5-49f7-8e52-1930af1ccb7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Entities/Transfer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Entities/Transfer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/MoneyProviderAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/com_example_appengine_JPATest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/com_jpa_JPATest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/com_jpa_JPATest_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_appengine_appengine_api_1_0_sdk_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_appengine_appengine_api_1_0_sdk_Release1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_appengine_appengine_api_1_0_sdk_Release2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_appengine_appengine_api_1_0_sdk_Release3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_appengine_appengine_api_1_0_sdk_Release4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_appengine_appengine_api_1_0_sdk_Release5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_51.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_52.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_53.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_54.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/appengine/app.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bank/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bank/services/userservice/controllers/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bank/services/userservice/middlewares/CorsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bank/services/userservice/repositories/ClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Controllers/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Controllers/AccountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Controllers/TransferController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Controllers/TransferController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Entities/Accounts/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Entities/Accounts/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Entities/Accounts/Depot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Entities/Accounts/PassBook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Entities/Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Entities/Operation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Entities/Transfers/ITransfer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Entities/Transfers/Virement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Factories/AccountFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Factories/AccountFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Factories/TransferFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Factories/TransferFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/JpaTestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/JpaTestApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Repositories/TransferRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/jpa/JPATest/Repositories/TransferRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Controllers/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Controllers/AccountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Controllers/TransferController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Controllers/TransferController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Entities/Accounts/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Entities/Accounts/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Entities/Accounts/Depot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Entities/Accounts/PassBook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Entities/Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Entities/Operation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Entities/Transfers/ITransfer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Entities/Transfers/Virement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Factories/AccountFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Factories/AccountFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Factories/TransferFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Factories/TransferFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/JpaTestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/JpaTestApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Repositories/AccountRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Repositories/AccountRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Repositories/TransferRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Repositories/TransferRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Controllers/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Controllers/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Controllers/TransferController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Controllers/TransferController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/Depot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/DepotAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/PassBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/PassBookAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Transfers/ITransfer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Transfers/Virement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Transfer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Factories/AccountFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Factories/AccountFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Factories/TransferFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Factories/TransferFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/JpaTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/JpaTestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/AccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/TransferRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/TransferRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/jpa/JPATest/JpaTestApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/jpa/JPATest/JpaTestApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/JPATest-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.jpa.JPATest.JpaTestApplicationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.jpa.JPATest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.jpa.JPATest.JpaTestApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Controllers/AccountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Controllers/TransferController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Entities/Accounts/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Entities/Accounts/DepotAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Entities/Accounts/MoneyProviderAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Entities/Accounts/PassBookAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Entities/Operation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Entities/Transfer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Factories/AccountFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Factories/TransferFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/JpaTestApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Repositories/AccountRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Repositories/OperationRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jpa/JPATest/Repositories/TransferRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Controllers/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/Controllers/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Controllers/TransferController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/Controllers/TransferController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/Entities/Accounts/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/DepotAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/Entities/Accounts/DepotAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/MoneyProviderAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/Entities/Accounts/MoneyProviderAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/PassBookAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/Entities/Accounts/PassBookAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/Entities/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Transfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/Entities/Transfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Factories/AccountFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/Factories/AccountFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Factories/TransferFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/Factories/TransferFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/JpaTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/BankApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/Repositories/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/OperationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/Repositories/OperationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/TransferRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/Repositories/TransferRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jpa/JPATest/JpaTestApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bank/BankApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -60,58 +92,70 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/MoneyProviderAccount.java">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            <state relative-caret-position="136">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradlew.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.classpath">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/ServletInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Controllers/AccountController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/BankApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="191">
+              <caret line="26" selection-start-line="26" selection-end-line="50" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Factories/AccountFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/AccountRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/Account.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -130,6 +174,9 @@
     <findStrings>
       <find>repository</find>
       <find>FetchType</find>
+      <find>javax</find>
+      <find>JpaTestApplication</find>
+      <find>bootWar</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,6 +208,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/AccountRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Controllers/AccountController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/services/clientservice/middlewares/CorsConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/services/clientservice/repositories/ClientRepository.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/appengine/app.yaml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/services/clientservice/ServletInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/services/clientservice/controllers/ClientController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jpa/JPATest/ServletInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bank/services/userservice/controllers/ClientController.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bank/BankApplication.java" />
       </list>
     </option>
   </component>
@@ -176,101 +233,69 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="JPATest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.example.appengine" type="9c53a853:ProjectViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="JPATest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.example.appengine" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="main" type="409dc1c3:GradleTreeStructureProvider$GradleProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="JPATest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.example.appengine" type="9c53a853:ProjectViewModuleGroupNode" />
               <item name="account-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="JPATest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.example.appengine" type="9c53a853:ProjectViewModuleGroupNode" />
               <item name="account-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JPATest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.example.appengine" type="9c53a853:ProjectViewModuleGroupNode" />
               <item name="account-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="JPATest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="account-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JPATest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="account-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JPATest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JPATest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.example.appengine" type="9c53a853:ProjectViewModuleGroupNode" />
               <item name="account-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JPATest" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JPATest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.example.appengine" type="9c53a853:ProjectViewModuleGroupNode" />
               <item name="account-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JPATest" type="462c0819:PsiDirectoryNode" />
-              <item name="Entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JPATest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="account-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JPATest" type="462c0819:PsiDirectoryNode" />
-              <item name="Entities" type="462c0819:PsiDirectoryNode" />
-              <item name="Accounts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JPATest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="account-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JPATest" type="462c0819:PsiDirectoryNode" />
-              <item name="Factories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JPATest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="account-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JPATest" type="462c0819:PsiDirectoryNode" />
-              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+              <item name="bank" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth0" value="326" />
+    <property name="RequestMappingsPanelWidth1" value="325" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558281075286" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558732575833" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -287,14 +312,117 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="JpaTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="com.jpa.JPATest.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jpa.JPATest.JpaTestApplication" />
+  <component name="RunManager" selected="Gradle.account-service [appengineRun]">
+    <configuration name="Google Stackdriver Debug" type="GCPDebug" factoryName="Google Stackdriver Debug">
+      <method v="2" />
+    </configuration>
+    <configuration name="account-service [appengineRun]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="appengineRun" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2">
+        <option name="Gradle.BeforeRunTask" enabled="true" tasks="clean" externalProjectPath="$PROJECT_DIR$" vmOptions="" scriptParameters="" />
+        <option name="Gradle.BeforeRunTask" enabled="true" tasks="" />
+      </method>
+    </configuration>
+    <configuration name="BankApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="com.example.appengine.bank.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bank.BankApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JpaTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="com.example.appengine.JPATest.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jpa.JPATest.JpaTestApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Google App Engine Deployment" type="gcp-app-engine-deploy" factoryName="Google App Engine Deployment">
+      <method v="2" />
+    </configuration>
+    <configuration name="Google App Engine Standard Local Server2" type="gcp-app-engine-local-run" factoryName="Local" APPLICATION_SERVER_NAME="Google App Engine Standard Local Server2" ALTERNATIVE_JRE_ENABLED="false">
+      <server-settings>
+        <artifact>com.example.appengine.JPATest</artifact>
+      </server-settings>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56576" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="com.example.appengine.JPATest" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Google App Engine Deployment.Google App Engine Deployment" />
+      <item itemvalue="Google App Engine Standard Local Server.Google App Engine Standard Local Server2" />
+      <item itemvalue="Google Stackdriver Debug.Google Stackdriver Debug" />
+      <item itemvalue="Gradle.account-service [appengineRun]" />
+      <item itemvalue="Spring Boot.JpaTestApplication" />
+      <item itemvalue="Spring Boot.BankApplication" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -309,17 +437,18 @@
       <workItem from="1558176201599" duration="129000" />
       <workItem from="1558176356989" duration="5277000" />
       <workItem from="1558182147941" duration="17691000" />
+      <workItem from="1558724925861" duration="4098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27720000" />
+    <option name="totallyTimeSpent" value="31818000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -327,19 +456,20 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32771084" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.50572246" visible="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32863188" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.65808296" weight="0.32771084" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.49427754" side_tool="true" visible="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49570817" weight="0.32891566" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.32891566" />
@@ -390,7 +520,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/RentController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/OperationRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/Repositories/OperationRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="31" selection-start-line="8" selection-end-line="9" />
@@ -421,7 +551,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/TransferRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/Repositories/TransferRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
@@ -431,25 +561,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/DepotAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/Entities/Accounts/DepotAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/JpaTestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#1017#1018#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Factories/TransferFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/Factories/TransferFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
@@ -459,7 +578,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Operation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/Entities/Operation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-263">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -489,7 +608,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Transfer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/Entities/Transfer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
@@ -499,14 +618,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/PassBookAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/Entities/Accounts/PassBookAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Controllers/TransferController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/Controllers/TransferController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
           <caret line="50" column="109" selection-start-line="50" selection-start-column="109" selection-end-line="50" selection-end-column="109" />
@@ -518,24 +637,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/Account.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/Entities/Accounts/MoneyProviderAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="105">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Repositories/AccountRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/userservice/middlewares/CorsConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#527#713#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Factories/AccountFactory.java">
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/Factories/AccountFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
@@ -545,17 +669,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Entities/Accounts/MoneyProviderAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/Entities/Accounts/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="75">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jpa/JPATest/Controllers/AccountController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/Controllers/AccountController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/userservice/repositories/ClientRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/userservice/controllers/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/appengine/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bank/BankApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/Repositories/AccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/ServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/BankApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="26" selection-start-line="26" selection-end-line="50" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="com.example.appengine.JPATest">
+    <output-path>$PROJECT_DIR$/out/artifacts/com_example_appengine_JPATest</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="com.example.appengine.JPATest" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

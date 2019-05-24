@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="com.jpa.JPATest.main">
+    <output-path>$PROJECT_DIR$/out/artifacts/com_jpa_JPATest_main</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="com.jpa.JPATest.main" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
