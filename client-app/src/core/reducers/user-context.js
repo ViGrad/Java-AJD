@@ -51,3 +51,4 @@ const PATH_TO_STATE = "userContext"
 const transform = state => getJsonValueByPath(state, PATH_TO_STATE)
 
 export const getIsLogged = state => transform(state).isLogged
+export const getUserId = state => transform(state).id

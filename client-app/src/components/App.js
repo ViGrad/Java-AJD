@@ -2,16 +2,14 @@ import React from "react"
 
 import { Button } from "semantic-ui-react"
 import SignInPage from "./sign-in-form"
+import AccountsPage from "./accounts-page"
 import { logOut } from "../core/actions"
 import { connect } from "react-redux"
 import { getIsLogged } from "../core/reducers/user-context"
 
 const App = ({ isLogged, logOut }) =>
   isLogged ? (
-    <div>
-      <p>Vous êtes connecté</p>
-      <Button onClick={logOut}>Déconnexion</Button>
-    </div>
+    <AccountsPage/>
   ) : (
     <SignInPage />
   )

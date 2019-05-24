@@ -2,7 +2,7 @@ import React from "react"
 import { connect } from "react-redux"
 import View from "./view"
 import { getSignInFormInputValues, getSignInFormInputState } from "../../core/reducers/sign-in-form"
-import { updateSignInForm, trySendSignInForm } from "../../core/actions/sign-in-form"
+import { updateInputValue, trySendSignInForm } from "../../core/actions/sign-in-form"
 
 class SignInFormComponent extends React.Component {
   constructor(props) {
@@ -23,7 +23,7 @@ const mapStateToProps = (state) => getSignInFormInputState(state)
 
 const mapDispatchToProps = {
   onSubmit: trySendSignInForm,
-  onInputChange: updateSignInForm
+  onInputChange: updateInputValue
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(SignInFormComponent)

@@ -1,6 +1,6 @@
-import Input from "./input/index"
+import Input from "./input"
 
 export const genericComponents = {
-  Input
+  Input,
 }
 export default genericComponents

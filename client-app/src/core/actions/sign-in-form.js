@@ -5,7 +5,7 @@ import { logIn } from "./user-context"
 import { isNotAnyErrorInFormValidityResponse } from "../../tools/controls"
 import { $sendSignInForm } from "../requests/sign-in"
 
-export const updateSignInForm = ({ value, ressourceName }) => ({
+export const updateInputValue = ({ value, ressourceName }) => ({
   type: ACTION_TYPES.SET_INPUT_VALUE,
   value,
   ressourceName
