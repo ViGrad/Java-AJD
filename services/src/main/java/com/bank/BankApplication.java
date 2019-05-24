@@ -1,14 +1,14 @@
 package com.bank;
 
-import com.bank.Entities.Accounts.Account;
-import com.bank.Entities.Accounts.DepotAccount;
-import com.bank.Entities.Accounts.PassBookAccount;
-import com.bank.Entities.Transfer;
-import com.bank.Factories.AccountFactory;
-import com.bank.Factories.TransferFactory;
-import com.bank.Repositories.AccountRepository;
-import com.bank.Repositories.OperationRepository;
-import com.bank.Repositories.TransferRepository;
+import com.bank.services.accountservice.Entities.Accounts.Account;
+import com.bank.services.accountservice.Entities.Accounts.DepotAccount;
+import com.bank.services.accountservice.Entities.Accounts.PassBookAccount;
+import com.bank.services.accountservice.Entities.Transfer;
+import com.bank.services.accountservice.Factories.AccountFactory;
+import com.bank.services.accountservice.Factories.TransferFactory;
+import com.bank.services.accountservice.Repositories.AccountRepository;
+import com.bank.services.accountservice.Repositories.OperationRepository;
+import com.bank.services.accountservice.Repositories.TransferRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
