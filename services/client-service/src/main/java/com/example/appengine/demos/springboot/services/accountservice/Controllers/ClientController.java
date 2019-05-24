@@ -1,11 +1,12 @@
-package com.example.appengine.demos.springboot.Controllers;
-import com.example.appengine.demos.springboot.Repositories.ClientRepository;
+package com.example.appengine.demos.springboot.services.accountservice.Controllers;
+import com.example.appengine.demos.springboot.services.accountservice.Repositories.ClientRepository;
 import org.springframework.web.bind.annotation.*;
 import com.google.appengine.api.datastore.*;
 import java.util.List;
 import java.util.Map;
 
 @RestController
+@RequestMapping("/account")
 public class ClientController {
     private ClientRepository clientRepository;
 

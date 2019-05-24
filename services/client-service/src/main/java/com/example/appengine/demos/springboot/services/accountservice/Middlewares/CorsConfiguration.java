@@ -1,4 +1,4 @@
-package com.example.appengine.demos.springboot.Middlewares;
+package com.example.appengine.demos.springboot.services.accountservice.Middlewares;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
