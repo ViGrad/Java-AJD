@@ -4,6 +4,10 @@ export const RESSOURCE_NAMES = {
     LAST_NAME: "lastName",
     PASSWORD: "password",
   },
+  LOG_IN_FORM: {
+    LOGIN: "loginFormLogin",
+    PASSWORD: "loginFormPassword"
+  },
   ACCOUNTS: {
     LIST: "accounts",
   },

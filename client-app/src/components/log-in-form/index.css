@@ -1,0 +1,8 @@
+.logIn-form {
+  margin: 100px auto;
+  width: 50%;
+}
+
+.logIn-form > .submit-button-container {
+  text-align: center
+}

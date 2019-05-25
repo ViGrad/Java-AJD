@@ -3,7 +3,7 @@ import { combineReducers } from "redux"
 
 export const fetchedListCreator = ({ ressourceName, defaultValue = [] }) => {
   const values = (state = defaultValue, { type, value, ...action }) => {
-    if (action.ressourceName !== ressourceName) {
+    if (action.ressourceName !== ressourceName && ressourceName !== undefined) {
       return state
     }
 
@@ -17,7 +17,7 @@ export const fetchedListCreator = ({ ressourceName, defaultValue = [] }) => {
   }
 
   const isLoading = (state = 0, { type, ...action }) => {
-    if (action.ressourceName !== ressourceName) {
+    if (action.ressourceName !== ressourceName && ressourceName !== undefined) {
       return state
     }
 
@@ -43,4 +43,4 @@ export const fetchedListCreator = ({ ressourceName, defaultValue = [] }) => {
 export const getValues = (state, filterCallback) =>
   filterCallback ? state.values.filter(filterCallback) : state.values
 
-export const getIsLoading = (state) => state.isLoading > 0
+export const getIsLoading = state => state.isLoading > 0

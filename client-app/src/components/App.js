@@ -2,6 +2,7 @@ import React from "react"
 
 import { Button } from "semantic-ui-react"
 import SignInPage from "./sign-in-form"
+import LoginPage from "./log-in-form"
 import AccountsPage from "./accounts-page"
 import { logOut } from "../core/actions"
 import { connect } from "react-redux"
@@ -11,9 +12,15 @@ import "./app.css"
 
 const App = ({ isLogged, logOut }) =>
   isLogged ? (
-    <AccountsPage/>
+    <div>
+      <AccountsPage/>
+      <Button onClick={logOut}>Déconnexion</Button>
+    </div>
   ) : (
-    <SignInPage />
+    <div>
+      <SignInPage />
+      <LoginPage />
+    </div>
   )
 
 const mapStateToProps = state => ({

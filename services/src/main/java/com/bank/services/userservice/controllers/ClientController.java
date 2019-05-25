@@ -41,10 +41,20 @@ public class ClientController {
     }
 
     @PostMapping("/client/login")
-    public boolean CheckPassword(long id, String password) throws Exception {
-        Entity client = clientRepository.GetById(id);
+    public boolean CheckPassword(@RequestBody Map<String,Object> params) {
+        String id = params.get("id").toString();
+        String password = params.get("password").toString();
+
+        Entity client;
+        try {
+            client = clientRepository.GetById(Long.parseLong(id));
+        }
+        catch (Exception ex) {
+            return false;
+        }
 
         String clientPassword = client.getProperty("password").toString();
+
         boolean passwordIsValid = clientPassword.equals(password);
 
         return passwordIsValid;
