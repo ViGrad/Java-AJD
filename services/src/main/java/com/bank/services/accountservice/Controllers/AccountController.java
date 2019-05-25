@@ -44,16 +44,18 @@ public class AccountController {
     @PostMapping("/account/{clientId}")
     public Long CreateAccount(@PathVariable Long clientId, @RequestBody Map<String,Object> params) throws Exception {
         String accountType = params.get("accountType").toString();
-        String initialAmount = params.get("initialAmount").toString();
+        String initialAmountString = params.get("initialAmount").toString();
+        double initialAmount = Double.parseDouble(initialAmountString);
 
         Account account = AccountFactory.createAccount(Integer.parseInt(accountType), clientId);
-
-        Account moneyProvider = accountRepository.findByType("Money Provider").get(0);
-
-        Transfer transfer = TransferFactory.createTransfer(moneyProvider, account, "Credit initial", Double.parseDouble(initialAmount));
-
         accountRepository.save(account);
-        transferRepository.save(transfer);
+
+        if(initialAmount > 0) {
+            Account moneyProvider = accountRepository.findByType("Money Provider").get(0);
+            Transfer transfer = TransferFactory.createTransfer(moneyProvider, account, "Credit initial", initialAmount);
+            transferRepository.save(transfer);
+        }
+
         return account.getId();
     }
 

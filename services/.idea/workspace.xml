@@ -7,23 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b5b36dd-57e5-49f7-8e52-1930af1ccb7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../client-app/src/components/accounts-page/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/accounts-page/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app/src/components/accounts-page/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/accounts-page/list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bank/services/accountservice/Controllers/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bank/services/accountservice/Controllers/AccountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/appengine-generated/datastore-indexes-auto.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/appengine-generated/local_db.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/appengine-generated/local_db.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/classes/com/bank/services/accountservice/Controllers/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/classes/com/bank/services/accountservice/Controllers/AccountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/bank-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/bank-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/AccountController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -123,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/AccountController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="50" column="86" lean-forward="true" selection-start-line="50" selection-start-column="86" selection-end-line="50" selection-end-column="86" />
+            <state relative-caret-position="196">
+              <caret line="47" column="71" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,7 +128,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Operation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="309">
@@ -227,8 +211,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bank/services/loggingservice/LoggingRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bank/services/loggingservice/LoggingController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bank/middlewares/LoggingMiddleWare.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/AccountController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Operation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/AccountController.java" />
       </list>
     </option>
   </component>
@@ -564,12 +548,12 @@
       <workItem from="1558733284665" duration="242000" />
       <workItem from="1558742582162" duration="1844000" />
       <workItem from="1558777307709" duration="3973000" />
-      <workItem from="1558786463103" duration="1104000" />
+      <workItem from="1558786463103" duration="1424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39783000" />
+    <option name="totallyTimeSpent" value="40103000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -863,30 +847,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/middlewares/LoggingMiddleWare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Accounts/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/AccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="50" column="86" lean-forward="true" selection-start-line="50" selection-start-column="86" selection-end-line="50" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -900,6 +864,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="36" column="95" selection-start-line="36" selection-start-column="95" selection-end-line="36" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Transfer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -907,10 +878,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Operation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/middlewares/LoggingMiddleWare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="36" column="95" selection-start-line="36" selection-start-column="95" selection-end-line="36" selection-end-column="95" />
+        <state relative-caret-position="367">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="47" column="71" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
