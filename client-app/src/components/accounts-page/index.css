@@ -1,8 +1,11 @@
-.signIn-form {
-  margin: 100px auto;
+
+.account-page {
   width: 50%;
+  margin: auto;
 }
 
-.signIn-form > .submit-button-container {
-  text-align: center
+.add-account-form {
+  display: flex;
+  width: fit-content;
+  margin: auto;
 }

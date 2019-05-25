@@ -1,5 +1,5 @@
 import React from "react"
-import { Form } from "semantic-ui-react"
+import { Form, Select } from "semantic-ui-react"
 import genericComponents from "../generic"
 
 const accountTypes = [
@@ -15,10 +15,11 @@ const accountTypes = [
 
 const AddAccountForm = ({ onSubmit, state, onChange }) => {
   return (
-    <Form onSubmit={onSubmit}>
-      <Form.Dropdown
+    <Form className="add-account-form" onSubmit={onSubmit}>
+      <genericComponents.Input
+        control={Select}
         name="accountType"
-        value={state.accountType.value}
+        state={state.accountType}
         onChange={onChange}
         options={accountTypes}
       />

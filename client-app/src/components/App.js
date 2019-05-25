@@ -7,6 +7,8 @@ import { logOut } from "../core/actions"
 import { connect } from "react-redux"
 import { getIsLogged } from "../core/reducers/user-context"
 
+import "./app.css"
+
 const App = ({ isLogged, logOut }) =>
   isLogged ? (
     <AccountsPage/>

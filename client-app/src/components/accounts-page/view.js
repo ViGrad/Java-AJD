@@ -11,13 +11,13 @@ const AccountsPage = ({
   onInputChange
 }) => {
   return (
-    <div>
-      <AccountList accounts={accounts} />
+    <div className="account-page">
       <AddAccountForm
         onSubmit={onSubmitAddAccountForm}
         state={addAccountFormState}
         onChange={onInputChange}
       />
+      <AccountList accounts={accounts} />
     </div>
   )
 }
