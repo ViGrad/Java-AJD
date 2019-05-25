@@ -1,6 +1,8 @@
 import React from "react"
 import { Form, Select } from "semantic-ui-react"
-import genericComponents from "../generic"
+import genericComponents from "../../generic"
+
+import "./index.css"
 
 const accountTypes = [
   {
@@ -13,7 +15,7 @@ const accountTypes = [
   }
 ]
 
-const AddAccountForm = ({ onSubmit, state, onChange }) => {
+const AddAccountFormView = ({ onSubmit, state, onChange }) => {
   return (
     <Form className="add-account-form" onSubmit={onSubmit}>
       <genericComponents.Input
@@ -35,4 +37,4 @@ const AddAccountForm = ({ onSubmit, state, onChange }) => {
   )
 }
 
-export default AddAccountForm
+export default AddAccountFormView

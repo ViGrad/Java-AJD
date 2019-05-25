@@ -2,6 +2,7 @@ import { fetchedListCreator, getValues, getIsLoading } from "./creators/fetched-
 import { RESSOURCE_NAMES } from "./ressource_names"
 import { getJsonValueByPath } from "../../tools/get-json-value-by-path";
 
+
 export default fetchedListCreator({
   ressourceName: RESSOURCE_NAMES.ACCOUNTS.LIST
 })

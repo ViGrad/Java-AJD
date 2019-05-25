@@ -3,18 +3,3 @@
   width: 50%;
   margin: auto;
 }
-
-.add-account-form {
-  display: flex;
-  width: fit-content;
-  margin: auto;
-}
-
-.operations-container {
-  width: 300px;
-  margin-left: 50px;
-}
-
-.account-container {
-  margin-top: 10px;
-}

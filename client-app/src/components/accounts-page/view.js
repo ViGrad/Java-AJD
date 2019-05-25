@@ -1,7 +1,7 @@
 import React from "react"
 
 import "./index.css"
-import AccountList from "./list"
+import AccountList from "./list/view"
 import AddAccountForm from "./add-account-form"
 
 const AccountsPage = ({
