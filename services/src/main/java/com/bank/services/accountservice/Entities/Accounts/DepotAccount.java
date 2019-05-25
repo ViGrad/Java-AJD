@@ -4,7 +4,7 @@ import javax.persistence.Entity;
 
 @Entity
 public class DepotAccount extends Account {
-    private static String ACCOUNT_NAME = "dépot";
+    private static String ACCOUNT_NAME = "Dépot";
 
     public DepotAccount() {
     }
