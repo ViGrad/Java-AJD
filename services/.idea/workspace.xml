@@ -7,103 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b5b36dd-57e5-49f7-8e52-1930af1ccb7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bank/middlewares/LoggingMiddleWare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bank/services/loggingservice/LoggingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bank/services/loggingservice/LoggingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/components/accounts-page/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/accounts-page/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/components/accounts-page/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/accounts-page/list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bank/services/accountservice/Controllers/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bank/services/accountservice/Controllers/AccountController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/appengine-generated/datastore-indexes-auto.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/appengine-generated/local_db.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/appengine-generated/local_db.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/appengine-generated/local_db.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/classes/com/bank/services/accountservice/Controllers/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/classes/com/bank/services/accountservice/Controllers/AccountController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/bank-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/bank-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/appengine-web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/classes/com/bank/BankApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/classes/com/bank/ServletInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/classes/com/bank/middlewares/CorsConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/classes/com/bank/services/accountservice/Controllers/AccountController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/classes/com/bank/services/accountservice/Controllers/TransferController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/classes/com/bank/services/accountservice/Entities/Accounts/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/classes/com/bank/services/accountservice/Entities/Accounts/DepotAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/classes/com/bank/services/accountservice/Entities/Accounts/MoneyProviderAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/classes/com/bank/services/accountservice/Entities/Accounts/PassBookAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/classes/com/bank/services/accountservice/Entities/Operation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/classes/com/bank/services/accountservice/Entities/Transfer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/classes/com/bank/services/accountservice/Factories/AccountFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/classes/com/bank/services/accountservice/Factories/TransferFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/classes/com/bank/services/accountservice/Repositories/AccountRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/classes/com/bank/services/accountservice/Repositories/OperationRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/classes/com/bank/services/accountservice/Repositories/TransferRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/classes/com/bank/services/userservice/controllers/ClientController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/classes/com/bank/services/userservice/repositories/ClientRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/HikariCP-3.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/appengine-api-1.0-sdk-1.9.74.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/aspectjweaver-1.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/byte-buddy-1.9.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/classmate-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/h2-1.4.197.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/hibernate-commons-annotations-5.0.4.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/hibernate-core-5.3.7.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/hibernate-validator-6.0.14.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/jackson-core-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/jackson-databind-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/jackson-datatype-jdk8-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/jackson-datatype-jsr310-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/jackson-module-parameter-names-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/javassist-3.23.1-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/javax.transaction-api-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/log4j-api-2.11.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/log4j-to-slf4j-2.11.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/snakeyaml-1.23.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-aop-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-aspects-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-beans-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-boot-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-boot-autoconfigure-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-boot-devtools-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-boot-starter-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-boot-starter-aop-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-boot-starter-data-jpa-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-boot-starter-jdbc-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-boot-starter-json-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-boot-starter-logging-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-boot-starter-tomcat-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-boot-starter-web-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-context-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-core-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-data-commons-2.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-data-jpa-2.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-expression-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-jcl-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-jdbc-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-orm-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-tx-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-web-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/spring-webmvc-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/tomcat-embed-core-9.0.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/tomcat-embed-el-9.0.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/tomcat-embed-websocket-9.0.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/bank-1.0-SNAPSHOT.war/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Operation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -134,12 +54,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/loggingservice/LoggingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
+            <state relative-caret-position="255">
               <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/loggingservice/LoggingRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="165">
               <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -160,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/userservice/repositories/ClientRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="120">
               <caret line="13" selection-start-line="13" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -172,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/userservice/controllers/ClientController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="180">
               <caret line="20" column="35" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -181,14 +99,65 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/middlewares/LoggingMiddleWare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="367">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/TransferController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="538">
+              <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/AccountController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="50" column="86" lean-forward="true" selection-start-line="50" selection-start-column="86" selection-end-line="50" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Accounts/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Operation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="36" column="95" selection-start-line="36" selection-start-column="95" selection-end-line="36" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Transfer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -254,11 +223,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bank/services/userservice/middlewares/CorsConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Repositories/TransferRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Repositories/AccountRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/AccountController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bank/middlewares/CorsConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bank/services/loggingservice/LoggingRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bank/services/loggingservice/LoggingController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bank/middlewares/LoggingMiddleWare.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/AccountController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Operation.java" />
       </list>
     </option>
   </component>
@@ -275,7 +245,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -342,6 +311,49 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bank" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="accountservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JPATest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bank" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="accountservice" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JPATest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bank" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="accountservice" type="462c0819:PsiDirectoryNode" />
+              <item name="Entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JPATest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bank" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="accountservice" type="462c0819:PsiDirectoryNode" />
+              <item name="Factories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JPATest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bank" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="loggingservice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -395,6 +407,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -551,11 +564,12 @@
       <workItem from="1558733284665" duration="242000" />
       <workItem from="1558742582162" duration="1844000" />
       <workItem from="1558777307709" duration="3973000" />
+      <workItem from="1558786463103" duration="1104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38679000" />
+    <option name="totallyTimeSpent" value="39783000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -570,7 +584,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -580,7 +594,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50143063" visible="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5007153" visible="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -589,7 +603,7 @@
       <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49785408" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.4985694" side_tool="true" visible="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.49928468" side_tool="true" visible="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49499285" weight="0.32891566" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
@@ -670,8 +684,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Accounts/DepotAccount.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Operation.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Transfer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Accounts/PassBookAccount.java" />
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor" />
@@ -707,23 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/TransferController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Accounts/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/appengine/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -742,16 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/AccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -831,36 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/userservice/controllers/ClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/userservice/repositories/ClientRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" selection-start-line="13" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/loggingservice/LoggingRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/ab3976d4574c48d22dc1abf6a9e8bd0fdf928223/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/http/HttpServletRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1128">
@@ -870,23 +825,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/loggingservice/LoggingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
+        <state relative-caret-position="255">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/loggingservice/LoggingRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/userservice/repositories/ClientRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" selection-start-line="13" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/userservice/controllers/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/middlewares/LoggingMiddleWare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="367">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Accounts/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="50" column="86" lean-forward="true" selection-start-line="50" selection-start-column="86" selection-end-line="50" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/TransferController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Transfer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="36" column="95" selection-start-line="36" selection-start-column="95" selection-end-line="36" selection-end-column="95" />
         </state>
       </provider>
     </entry>

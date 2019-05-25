@@ -34,9 +34,9 @@ public class Operation {
     }
 
     @OneToOne
-    @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
+    @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "label")
     @JsonIdentityReference(alwaysAsId = true)
-    @JsonProperty("transferId")
+    @JsonProperty("transferLabel")
     public Transfer getTransfer() {
         return transfer;
     }
