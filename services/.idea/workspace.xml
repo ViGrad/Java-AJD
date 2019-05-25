@@ -7,7 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b5b36dd-57e5-49f7-8e52-1930af1ccb7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Accounts/DepotAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Accounts/DepotAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/components/accounts-page/add-account-form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/accounts-page/add-account-form/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/components/accounts-page/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/accounts-page/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/components/accounts-page/list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/accounts-page/list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/components/accounts-page/list/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/accounts-page/list/view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/components/accounts-page/view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/core/reducers/accounts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/core/reducers/accounts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/core/reducers/ressource_names.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/core/reducers/ressource_names.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/appengine-generated/local_db.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/appengine-generated/local_db.bin" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -547,12 +554,12 @@
       <workItem from="1558733284665" duration="242000" />
       <workItem from="1558742582162" duration="1844000" />
       <workItem from="1558777307709" duration="3973000" />
-      <workItem from="1558786463103" duration="1558000" />
+      <workItem from="1558786463103" duration="1825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40237000" />
+    <option name="totallyTimeSpent" value="40504000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

@@ -2,14 +2,18 @@ import React from "react"
 import { connect } from "react-redux"
 import View from "./view"
 import { updateInputValue } from "../../../core/actions/sign-in-form"
-import { fetchAccounts, createAccount } from "..././../core/actions/accounts";
-import { getAccounts, getAccountsIsLoading } from "../../../core/reducers/accounts";
-import { getAccountFormState } from "../../../core/reducers/add-account-form";
+import { getAccounts, getAccountsIsLoading, getSelectedAccount } from "../../../core/reducers/accounts";
+import { RESSOURCE_NAMES } from "../../../core/reducers/ressource_names";
+import { fetchAccounts } from "../../../core/actions/accounts";
 
 class AccountsPageComponent extends React.Component {
   constructor(props) {
     super(props)
-    this.handleInputChange = this.handleInputChange.bind(this)
+    this.handleSelectAccount = this.handleSelectAccount.bind(this)
+  }
+
+  handleSelectAccount(value) {
+    this.props.onUpdate({value, ressourceName: RESSOURCE_NAMES.ACCOUNTS.SELECTED})
   }
 
   componentWillMount() {
@@ -17,17 +21,19 @@ class AccountsPageComponent extends React.Component {
   }
 
   render() {
-    return <View {...this.props}  />
+    return <View {...this.props} onSelectAccount={this.handleSelectAccount} />
   }
 }
 
 const mapStateToProps = (state) => ({
   accounts: getAccounts(state),
   isLoading: getAccountsIsLoading(state),
+  selected: getSelectedAccount(state)
 })
 
 const mapDispatchToProps = ({
   init: fetchAccounts,
+  onUpdate: updateInputValue
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(AccountsPageComponent)

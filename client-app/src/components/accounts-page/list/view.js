@@ -9,10 +9,14 @@ const mapAccountTypeToIconName = {
   "Livret A": "book"
 }
 
-const AccountList = ({ accounts }) => (
+const AccountList = ({ accounts, selected, onSelectAccount }) => (
   <List divided verticalAlign="middle">
     {accounts.map((account, index) => (
-      <List.Item className="account-container" key={index}>
+      <List.Item
+        onClick={() => onSelectAccount(account.id)}
+        className="account-container"
+        key={index}
+      >
         <List.Content verticalAlign="middle" floated="right">
           {account.balance}€
         </List.Content>
@@ -25,17 +29,20 @@ const AccountList = ({ accounts }) => (
           <List.Header as="a">{account.type}</List.Header>
           <List.Description as="a">Référence: {account.id}</List.Description>
         </List.Content>
-
-        <List.Content
-          className={"operations-container"}
-          key={index + "operation"}
-        >
-          <List.List>
-            {account.operations.map(operation => (
-              <OperationItem {...operation} />
-            ))}
-          </List.List>
-        </List.Content>
+        {account.id === selected.value ? (
+          <List.Content
+            className={"operations-container"}
+            key={index + "operation"}
+          >
+            <List.List>
+              {account.operations.map(operation => (
+                <OperationItem {...operation} />
+              ))}
+            </List.List>
+          </List.Content>
+        ) : (
+          ""
+        )}
       </List.Item>
     ))}
   </List>

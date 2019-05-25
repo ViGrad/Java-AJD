@@ -10,6 +10,7 @@ export const RESSOURCE_NAMES = {
   },
   ACCOUNTS: {
     LIST: "accounts",
+    SELECTED: "selectedAccount"
   },
   ADD_ACCOUNT_FORM: {
     INITAL_AMOUNT: "initialAmount",

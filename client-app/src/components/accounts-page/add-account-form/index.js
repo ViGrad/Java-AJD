@@ -13,23 +13,23 @@ class AddAccountFormComponent extends React.Component {
   }
 
   handleInputChange(event, data) {
-    this.props.onInputChange({value: data.value, ressourceName: data.name})
+    this.props.onChange({value: data.value, ressourceName: data.name})
   }
   
 
   
   render() {
-    return <View {...this.props} onInputChange={this.handleInputChange} />
+    return <View {...this.props} onChange={this.handleInputChange} />
   }
 }
 
 const mapStateToProps = (state) => ({
-  addAccountFormState: getAccountFormState(state),
+  state: getAccountFormState(state),
 })
 
 const mapDispatchToProps = ({
-  onInputChange: updateInputValue,
-  onSubmitAddAccountForm: createAccount
+  onChange: updateInputValue,
+  onSubmit: createAccount
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(AddAccountFormComponent)
