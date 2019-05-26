@@ -2,7 +2,7 @@ import React from "react"
 import { List } from "semantic-ui-react"
 
 const OperationItem = ({amount, transferLabel, date}) => (
-  <List.Item >
+  <List.Item  className="operation-item" >
     <List.Content verticalAlign="middle" floated="right">
       Montant: {amount}€
     </List.Content>

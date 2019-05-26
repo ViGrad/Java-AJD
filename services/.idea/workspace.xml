@@ -8,13 +8,37 @@
   <component name="ChangeListManager">
     <list default="true" id="4b5b36dd-57e5-49f7-8e52-1930af1ccb7f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../client-app/src/components/accounts-page/add-account-form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/accounts-page/add-account-form/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app/src/components/accounts-page/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/accounts-page/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/components/accounts-page/list/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/accounts-page/list/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client-app/src/components/accounts-page/list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/accounts-page/list/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client-app/src/components/accounts-page/list/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/accounts-page/list/view.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app/src/components/accounts-page/view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/components/log-in-form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/log-in-form/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/components/sign-in-form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/sign-in-form/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/core/actions/accounts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/core/actions/accounts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/core/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/core/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/core/actions/log-in-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/core/actions/log-in-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/core/actions/sign-in-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/core/actions/sign-in-form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client-app/src/core/reducers/accounts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/core/reducers/accounts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/core/reducers/add-account-form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/core/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/core/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/core/reducers/log-in-form.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../client-app/src/core/reducers/ressource_names.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/core/reducers/ressource_names.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/appengine-generated/local_db.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/appengine-generated/local_db.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/core/reducers/sign-in-form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-app/src/core/requests/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/core/requests/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bank/services/accountservice/Controllers/TransferController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bank/services/accountservice/Controllers/TransferController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bank/services/accountservice/Entities/Accounts/DepotAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bank/services/accountservice/Entities/Accounts/DepotAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/appengine-generated/local_db.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/classes/com/bank/services/accountservice/Controllers/TransferController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/classes/com/bank/services/accountservice/Controllers/TransferController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/classes/com/bank/services/accountservice/Entities/Accounts/DepotAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/classes/com/bank/services/accountservice/Entities/Accounts/DepotAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/bank-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/bank-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/TransferController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/TransferController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -66,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/TransferController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+            <state relative-caret-position="346">
+              <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,7 +123,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Accounts/DepotAccount.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -219,6 +243,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Operation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/AccountController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Accounts/DepotAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/TransferController.java" />
       </list>
     </option>
   </component>
@@ -554,12 +579,12 @@
       <workItem from="1558733284665" duration="242000" />
       <workItem from="1558742582162" duration="1844000" />
       <workItem from="1558777307709" duration="3973000" />
-      <workItem from="1558786463103" duration="1825000" />
+      <workItem from="1558786463103" duration="2772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40504000" />
+    <option name="totallyTimeSpent" value="41451000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,9 +597,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -584,7 +608,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5007153" visible="true" weight="0.32771084" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5007153" visible="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -849,13 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Transfer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/middlewares/LoggingMiddleWare.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -870,16 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="47" column="71" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/TransferController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -910,6 +917,23 @@
           <folding>
             <element signature="e#272#273#0" expanded="true" />
             <element signature="e#317#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Entities/Transfer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/TransferController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

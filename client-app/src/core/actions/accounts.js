@@ -1,11 +1,7 @@
-import { getUserId } from "../reducers/user-context"
 import { $fetchUserAccounts, $createAccount } from "../requests"
 import { ACTION_TYPES } from "./types"
 import { RESSOURCE_NAMES } from "../reducers/ressource_names"
-import {
-  getAccountFormState,
-  getAccountFormValues
-} from "../reducers/add-account-form"
+import { getUserId, getAccountFormValues } from "../reducers"
 
 export const setUserAccounts = ({ accounts }) => ({
   type: ACTION_TYPES.SET_FETCHED_LIST_VALUES,

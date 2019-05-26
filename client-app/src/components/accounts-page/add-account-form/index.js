@@ -4,7 +4,7 @@ import View from "./view"
 import { updateInputValue } from "../../../core/actions/sign-in-form"
 import { fetchAccounts, createAccount } from "../../../core/actions/accounts";
 import { getAccounts, getAccountsIsLoading } from "../../../core/reducers/accounts";
-import { getAccountFormState } from "../../../core/reducers/add-account-form";
+import { getAccountFormState } from "../../../core/reducers";
 
 class AddAccountFormComponent extends React.Component {
   constructor(props) {

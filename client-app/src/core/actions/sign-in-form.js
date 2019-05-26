@@ -1,6 +1,6 @@
 import { ACTION_TYPES } from "./types"
 import checkSignInFormValidityAndReturnErrors from "./utils/sign-in-form-validator"
-import { getSignInFormInputValues } from "../reducers/sign-in-form"
+import { getSignInFormInputValues } from "../reducers"
 import { logIn } from "./user-context"
 import { isNotAnyErrorInFormValidityResponse } from "../../tools/controls"
 import { $sendSignInForm } from "../requests/sign-in"

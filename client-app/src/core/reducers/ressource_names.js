@@ -15,5 +15,10 @@ export const RESSOURCE_NAMES = {
   ADD_ACCOUNT_FORM: {
     INITAL_AMOUNT: "initialAmount",
     ADD_ACCOUNT_FORM_ACCOUNT_TYPE: "accountType"
+  },
+  TRANSFER_FORM: {
+    RECIPIENT: "transferRecipient",
+    AMOUNT: "transferAmount",
+    LABEL: "transferLabel"
   }
 }

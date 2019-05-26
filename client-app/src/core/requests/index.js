@@ -1,5 +1,7 @@
 export * from "./sign-in"
 export * from "./accounts"
+export * from "./transfer"
+export * from "./log-in"
 
 export const $myFetch = ({
   path,

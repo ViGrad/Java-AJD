@@ -1,7 +1,7 @@
 import React from "react"
 import { connect } from "react-redux"
 import View from "./view"
-import { getSignInFormInputValues, getSignInFormInputState } from "../../core/reducers/sign-in-form"
+import { getSignInFormInputValues, getSignInFormInputState } from "../../core/reducers"
 import { updateInputValue, trySendSignInForm } from "../../core/actions/sign-in-form"
 
 class SignInFormComponent extends React.Component {

@@ -3,3 +3,22 @@
   width: 300px;
   margin-left: 50px;
 }
+
+.operations-form {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+}
+
+.operation-item {
+  padding: 3px 10px !important;
+}
+
+div .operation-item:not(last-child) {
+  border-bottom-style: double;
+  border-width: thin;
+}
+
+div .operation-item:last-child {
+  border-bottom-style: none !important;
+}

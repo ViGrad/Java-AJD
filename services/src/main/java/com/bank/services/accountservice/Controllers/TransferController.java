@@ -47,6 +47,7 @@ public class TransferController {
         }
 
         Transfer transfer = TransferFactory.createTransfer(debited, credited, label, Integer.parseInt(amount));
+        transferRepository.save(transfer);
 
         return transfer.getId();
     }

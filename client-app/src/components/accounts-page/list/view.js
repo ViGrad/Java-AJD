@@ -1,15 +1,25 @@
 import React from "react"
-import { Button, Image, List } from "semantic-ui-react"
+import { Button, Form, List, Select } from "semantic-ui-react"
 import OperationItem from "./operation-item"
 
 import "./index.css"
+import genericComponents from "../../generic"
+import { RESSOURCE_NAMES } from "../../../core/reducers/ressource_names"
+import TransferForm from "./transfer-form"
 
 const mapAccountTypeToIconName = {
-  dépot: "briefcase",
+  "Dépot": "briefcase",
   "Livret A": "book"
 }
 
-const AccountList = ({ accounts, selected, onSelectAccount }) => (
+const AccountList = ({
+  accounts,
+  selected,
+  onSelectAccount,
+  onInputChange,
+  transferFormState,
+  onSubmitTransferForm
+}) => (
   <List divided verticalAlign="middle">
     {accounts.map((account, index) => (
       <List.Item
@@ -30,14 +40,22 @@ const AccountList = ({ accounts, selected, onSelectAccount }) => (
           <List.Description as="a">Référence: {account.id}</List.Description>
         </List.Content>
         {account.id === selected.value ? (
-          <List.Content
-            className={"operations-container"}
-            key={index + "operation"}
-          >
+          <List.Content key={index + "operation"}>
             <List.List>
-              {account.operations.map(operation => (
-                <OperationItem {...operation} />
-              ))}
+              <List.Item>
+                <TransferForm
+                  onSubmit={onSubmitTransferForm}
+                  state={transferFormState}
+                  onInputChange={onInputChange}
+                  account={account}
+                  accounts={accounts.filter(acc => account.id !== acc.id)}
+                />
+              </List.Item>
+              <List.Item className={"operations-container"}>
+                {account.operations.map(operation => (
+                  <OperationItem {...operation} />
+                ))}
+              </List.Item>
             </List.List>
           </List.Content>
         ) : (

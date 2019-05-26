@@ -1,4 +1,4 @@
-import { getlogInFormInputValues } from "../reducers/log-in-form"
+import { getlogInFormInputValues } from "../reducers"
 import { $sendLoginForm } from "../requests/log-in"
 import { resetInput } from "./sign-in-form"
 import { logIn } from "./user-context"

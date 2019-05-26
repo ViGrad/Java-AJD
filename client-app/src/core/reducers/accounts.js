@@ -25,7 +25,7 @@ export default combineReducers({
 const PATH_TO_STATE = "accounts"
 const transform = state => getJsonValueByPath(state, PATH_TO_STATE)
 
-export const getAccounts = state => getValues(transform(state)).values
+export const getAccounts = (state, filterCallback) => getValues(transform(state), filterCallback).values
 export const getAccountsIsLoading = state =>
   getIsLoading(transform(state)).values
 
