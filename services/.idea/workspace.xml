@@ -6,40 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b5b36dd-57e5-49f7-8e52-1930af1ccb7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../client-app/src/components/accounts-page/add-account-form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/accounts-page/add-account-form/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app/src/components/accounts-page/list/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/accounts-page/list/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app/src/components/accounts-page/list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/accounts-page/list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app/src/components/accounts-page/list/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/accounts-page/list/view.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app/src/components/log-in-form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/log-in-form/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app/src/components/sign-in-form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/components/sign-in-form/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app/src/core/actions/accounts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/core/actions/accounts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app/src/core/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/core/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app/src/core/actions/log-in-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/core/actions/log-in-form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app/src/core/actions/sign-in-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/core/actions/sign-in-form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app/src/core/reducers/accounts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/core/reducers/accounts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app/src/core/reducers/add-account-form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app/src/core/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/core/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app/src/core/reducers/log-in-form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app/src/core/reducers/ressource_names.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/core/reducers/ressource_names.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app/src/core/reducers/sign-in-form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-app/src/core/requests/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-app/src/core/requests/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bank/services/accountservice/Controllers/TransferController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bank/services/accountservice/Controllers/TransferController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bank/services/accountservice/Entities/Accounts/DepotAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bank/services/accountservice/Entities/Accounts/DepotAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/appengine-generated/local_db.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/classes/com/bank/services/accountservice/Controllers/TransferController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/classes/com/bank/services/accountservice/Controllers/TransferController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/classes/com/bank/services/accountservice/Entities/Accounts/DepotAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/exploded-bank/WEB-INF/classes/com/bank/services/accountservice/Entities/Accounts/DepotAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/bank-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/bank-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/TransferController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bank/services/accountservice/Controllers/TransferController.java" afterDir="false" />
-    </list>
+    <list default="true" id="4b5b36dd-57e5-49f7-8e52-1930af1ccb7f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -440,6 +407,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -458,7 +426,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.account-service [appengineRun]">
+  <component name="RunManager" selected="Gradle.services [clean]">
     <configuration name="Google Stackdriver Debug" type="GCPDebug" factoryName="Google Stackdriver Debug">
       <method v="2" />
     </configuration>
@@ -483,6 +451,25 @@
         <option name="Gradle.BeforeRunTask" enabled="true" tasks="clean" externalProjectPath="$PROJECT_DIR$" vmOptions="" scriptParameters="" />
         <option name="Gradle.BeforeRunTask" enabled="true" tasks="" />
       </method>
+    </configuration>
+    <configuration name="services [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="Google App Engine Deployment" type="gcp-app-engine-deploy" factoryName="Google App Engine Deployment" server-name="Google App Engine">
       <deployment type="appengine-artifact-source" name="Gradle : com.example.appengine : bank-1.0-SNAPSHOT.war (exploded)" project="java-bank" version="auto">
@@ -558,7 +545,13 @@
       <item itemvalue="Google App Engine Standard Local Server.Google App Engine Standard Local Server2" />
       <item itemvalue="Google Stackdriver Debug.Google Stackdriver Debug" />
       <item itemvalue="Gradle.account-service [appengineRun]" />
+      <item itemvalue="Gradle.services [clean]" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.services [clean]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -579,12 +572,12 @@
       <workItem from="1558733284665" duration="242000" />
       <workItem from="1558742582162" duration="1844000" />
       <workItem from="1558777307709" duration="3973000" />
-      <workItem from="1558786463103" duration="2772000" />
+      <workItem from="1558786463103" duration="2788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41451000" />
+    <option name="totallyTimeSpent" value="41467000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -608,7 +601,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5007153" visible="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5007153" weight="0.32771084" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
