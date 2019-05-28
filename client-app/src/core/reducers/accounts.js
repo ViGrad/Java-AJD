@@ -5,7 +5,7 @@ import {
 } from "./creators/fetched-list"
 import { RESSOURCE_NAMES } from "./ressource_names"
 import { getJsonValueByPath } from "../../tools/get-json-value-by-path"
-import { combineReducers } from "../../../../../../../../Library/Caches/typescript/3.4.5/node_modules/@types/react-redux/node_modules/redux"
+import { combineReducers } from "redux"
 import { createInputReducer } from "./creators/string-input"
 
 const values = fetchedListCreator({
